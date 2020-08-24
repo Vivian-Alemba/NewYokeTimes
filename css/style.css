@@ -11,14 +11,20 @@ body{
 }
 
 .navigation{
+	display: grid;
+	grid-template-columns: 5% 5% 10% 60% 10% 10%;
+	
 
 	list-style-type: none;
+	border-bottom: 1px solid grey;
+	background-color: white;
 	
 
 }
+
 .navigation li{
 	display: inline-block;
-	padding:5px 10px 0 10px;
+	/* padding:5px 10px 0 10px; */
 	
 	
 	
@@ -30,13 +36,31 @@ body{
 
 }
 .nav-right {
-	float: right;
+	
+	
+	background-color: rgb(86, 123, 149);
+	
+	color: white;
+	font-family: helvetica, arial, sans-serif;
+	line-height: 10px;
+	border-style: solid;
+	border-color: rgb(50, 104, 145);
+	padding: 11px 12px 8px;
+	font-weight: 700;
+	border-radius: 3px;
+	border-width: 1px;
+	white-space: nowrap;
+	font-size: 11px;
 	
 }
 #login {
 	
-	background-color:blue;
-	border-radius: 5px;
+	
+	
+	/* border-radius: 5px; */
+	margin-right: 10px;
+	border-color: rgb(50, 104, 145);
+	margin-right: 10px;
 	text-transform: uppercase;
 	color: white;
 	font-size: 11px;
@@ -44,8 +68,11 @@ body{
 }
 #subscribe{
 	
-	background-color: blue;
-	border-radius: 5px;
+	
+	
+	/* border-radius: 5px; */
+	border-color: rgb(50, 104, 145);
+	margin-right: -60px;
 	text-transform: uppercase;
 	color: white;
 }
@@ -68,11 +95,12 @@ body{
 
 	
 }
-.para{
+.para p{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	color:#666;
 }
 .author{
 	display: flex;
@@ -101,6 +129,25 @@ body{
 	display: grid;
 	grid-template-columns: 1fr 2fr 1fr;
 	grid-template-rows: 1fr;
+}
+.image-inflation{
+	display: block;
+	height: auto;
+	max-width:100%;
+}
+.universe p{
+	top: 24.8264%;
+	left: 0.0436%;
+	width: 228px;
+}
+.move{
+	position: absolute;
+}
+.nextEnough p{
+	top: 24.8264%;
+	left: 25.5619%;
+	width: 228px;
+
 }
 /* container > *{
     color: white;
